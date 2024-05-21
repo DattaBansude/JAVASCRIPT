@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        class Emp
+        {
+            constructor()
+            {
+                var id;
+                var name;
+
+            }
+            getId()
+            {
+                return this.id;
+            }
+            setId(id)
+            {
+                this.id=id;
+            }
+            getName(){
+                return this.name;
+
+            }
+            setName(name)
+            {
+                this.name=name;
+            }
+        }
+        var e =new Emp();
+        e.setId(101);
+        e.setName("xyz");
+        console.log(e.getId());
+        console.log(e.getName());
+    </script>
+</body>
+</html>
